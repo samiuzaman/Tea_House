@@ -5,3 +5,9 @@
 .btn {
   @apply bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white text-xl font-bold py-4 px-6 rounded-xl mt-8;
 }
+p {
+  @apply text-[#777777];
+}
+.our-feature-products {
+  @apply w-64 h-96 px-8 py-7 items-center text-center bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] rounded-xl;
+}
