@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white text-xl font-bold py-4 px-6 rounded-xl mt-8;
+}
