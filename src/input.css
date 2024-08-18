@@ -27,3 +27,9 @@ p {
 .meet-card-child{
   @apply flex justify-between items-end
 }
+.news-card{
+  @apply w-80 mx-auto border p-4 rounded-xl mb-5
+}
+.news-card-h3{
+  @apply text-xl font-extrabold mb-4
+}
