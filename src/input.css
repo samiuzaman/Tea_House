@@ -9,5 +9,8 @@ p {
   @apply text-[#777777];
 }
 .our-feature-products {
-  @apply w-64 h-96 px-8 py-7 items-center text-center bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] rounded-xl;
+  @apply w-64 h-96 px-8 py-7 items-center text-center bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] rounded-xl shadow-lg;
+}
+.blank-div{
+  @apply w-56 h-32 bg-gradient-to-r rounded-xl
 }
