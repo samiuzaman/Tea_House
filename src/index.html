@@ -20,8 +20,8 @@
     <!-- CSS File Link -->
     <link href="./style.css" rel="stylesheet" />
   </head>
-  <body class="w-4/5 mx-auto font-[manrope]">
-    <header class="md:flex md:gap-x-10 mt-24 mb-24">
+  <body class="w-11/12 mx-auto font-[manrope]">
+    <header class="md:w-4/5 md:mx-auto md:flex md:gap-x-10 mt-24 mb-24">
       <div class="md:w-1/2 mb-10">
         <h1 class="text-5xl font-bold leading-tight pb-8 md:text-7xl">
           It's good <br />
@@ -32,7 +32,7 @@
           A tea house is a serene, inviting space designed to offer a peaceful
           retreat where people can enjoy a variety of teas and light snacks.
         </p>
-        <button class="btn">
+        <button class="btn gradient-btn">
           Explore More
           <span class="rotate-3 pl-2"
             ><i class="fa-solid fa-arrow-right"></i
@@ -55,14 +55,16 @@
     <main>
       <!-- Our Featured Products Section Code Start Here -->
       <section>
-        <h1 class="text-3xl md:text-5xl font-bold text-center mb-5">
+        <h1
+          class="text-3xl md:w-4/5 md:mx-auto md:text-5xl font-bold text-center mb-5"
+        >
           Our Featured Products
         </h1>
         <p class="text-center md:w-3/5 mx-auto mb-12">
           To create exceptional community experiences through traditional
           Taiwanese tea flavors, inspiring happiness in every cup.
         </p>
-        <div class="w-4/5 md:w-11/12 mx-auto mb-24 md:flex md:gap-x-5">
+        <div class="w-3/5 mx-auto md:w-4/5 md:mx-auto mb-24 md:flex md:gap-x-5">
           <div class="our-feature-products mb-5">
             <img
               class="text-center pl-5 mb-7"
@@ -114,7 +116,7 @@
       </section>
       <!-- Our Featured Products Section Code End Here -->
       <!-- Great Tea, Freshly Presented Section Code Start Here -->
-      <section class="lg:flex lg:gap-x-16">
+      <section class="md:w-4/5 md:mx-auto lg:flex lg:gap-x-16">
         <div
           class="w-2/4 mx-auto mb-20 lg:w-2/5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:ml-16"
         >
@@ -131,7 +133,7 @@
 
           <div class="blank-div from-[#D9D9D9] to-[#FFFFFF] mb-5"></div>
         </div>
-        <div class="lg:w-1/2">
+        <div class="lg:w-5/12">
           <h2 class="text-4xl font-extrabold mb-8">
             Great Tea, Freshly Presented
           </h2>
@@ -155,6 +157,73 @@
         </div>
       </section>
       <!-- Great Tea, Freshly Presented Section Code End Here -->
+      <!-- Meet Our Super Clients Section Code Start Here -->
+      <section
+        class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] mb-15 rounded-xl px-5 lg:flex lg:justify-between lg:items-center lg:gap-x-10 mb-24 mt-10"
+      >
+        <div
+          class="lg:w-1/2 lg:pl-16 py-20 bg-[url('../images/bg_cup.png')] bg-no-repeat bg-right-bottom"
+        >
+          <h2 class="text-3xl lg:text-4xl text-white font-extrabold mb-5">
+            Meet Our Super Clients
+          </h2>
+          <p class="text-white mb-6 text-justify">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button class="btn bg-white text-[#f87c2a]">Show All</button>
+        </div>
+        <div class="relative py-1 md:py-20 m-2 h-[630px] md:h-[625px]">
+          <div class="meet-card mb-8 opacity-50">
+            <img class="meet-card-img" src="../images/client.png" alt="" />
+            <p class="pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="meet-card-child">
+              <div>
+                <h4 class="mb-1 text-xl font-bold">Ilham Yuda</h4>
+                <p>Businessman</p>
+              </div>
+              <img class="w-6 h-6" src="../images/circles.png" alt="" />
+            </div>
+          </div>
+
+          <div class="meet-card opacity-50">
+            <img class="meet-card-img" src="../images/client.png" alt="" />
+            <p class="pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="meet-card-child">
+              <div>
+                <h4 class="mb-1 text-xl font-bold">Ilham Yuda</h4>
+                <p>Businessman</p>
+              </div>
+              <img class="w-6 h-6" src="../images/circles.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="meet-card absolute opacity-100 bottom-[350px] right-4 lg:right-20 shadow-lg"
+          >
+            <img class="meet-card-img" src="../images/client.png" alt="" />
+            <p class="pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <div class="meet-card-child">
+              <div>
+                <h4 class="mb-1 text-xl font-bold">Ilham Yuda</h4>
+                <p>Businessman</p>
+              </div>
+              <img class="w-6 h-6" src="../images/circles.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Meet Our Super Clients Section Code End Here -->
     </main>
   </body>
 </html>
