@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-xl font-bold py-4 px-6 rounded-xl mt-8;
+}
+.gradient-color {
+  @apply text-white bg-gradient-to-l from-[#FF0000] to-[#FF8938];
+}
+p {
+  @apply text-[#777777] leading-7;
+}
+.our-feature-products {
+  @apply w-64 h-96 px-8 py-7 items-center text-center bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] rounded-xl shadow-lg;
+}
+.blank-div {
+  @apply w-56 h-32 bg-gradient-to-r rounded-xl;
+}
+
+.meet-card {
+  @apply w-96 h-56 bg-white rounded-xl px-10 py-10 relative;
+}
+.meet-card-img {
+  @apply absolute right-[340px] bottom-44 border-4 rounded-full;
+}
+.meet-card-child {
+  @apply flex justify-between items-end;
+}
+.news-card {
+  @apply w-80 mx-auto border p-4 rounded-xl mb-5;
+}
+.news-card-h3 {
+  @apply text-xl font-extrabold mb-4;
+}
+.footer-h3 {
+  @apply text-xl font-semibold mb-6;
+}
