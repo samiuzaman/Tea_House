@@ -20,9 +20,9 @@
     <!-- CSS File Link -->
     <link href="./style.css" rel="stylesheet" />
   </head>
-  <body class="w-11/12 mx-auto font-[manrope]">
+  <body class="font-[manrope]">
     <header
-      class="md:w-4/5 md:mx-auto md:flex md:items-center md:gap-x-2 mt-24 mb-24"
+      class="w-11/12 mx-auto md:w-4/5 md:mx-auto md:flex md:items-center md:gap-x-2 mt-24 mb-24"
     >
       <div class="md:w-2/3 mb-10">
         <h1 class="text-5xl font-extrabold leading-tight pb-8 md:text-7xl">
@@ -34,7 +34,7 @@
           A tea house is a serene, inviting space designed to offer a peaceful
           retreat where people can enjoy a variety of teas and light snacks.
         </p>
-        <button class="btn gradient-btn">
+        <button class="btn gradient-color">
           Explore More
           <span class="rotate-3 pl-2"
             ><i class="fa-solid fa-arrow-right"></i
@@ -54,7 +54,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="w-11/12 mx-auto">
       <!-- Our Featured Products Section Code Start Here -->
       <section>
         <h1
@@ -163,10 +163,10 @@
       <!-- Great Tea, Freshly Presented Section Code End Here -->
       <!-- Meet Our Super Clients Section Code Start Here -->
       <section
-        class="md:w-4/5 md:mx-auto bg-gradient-to-l from-[#FF0000] to-[#FF8938] mb-15 rounded-xl px-5 lg:flex lg:justify-between lg:items-center lg:gap-x-10 mb-24 mt-10"
+        class="md:w-4/5 md:mx-auto bg-gradient-to-l from-[#FF0000] to-[#FF8938] mb-15 rounded-xl px-5 lg:flex lg:justify-between lg:items-center lg:gap-x-10 lg:pr-2 mb-24 mt-10"
       >
         <div
-          class="lg:w-1/2 lg:pl-16 py-20 bg-[url('../images/bg_cup.png')] bg-no-repeat bg-right-bottom"
+          class="lg:w-2/5 lg:pl-16 py-20 bg-[url('../images/bg_cup.png')] bg-no-repeat bg-right-bottom"
         >
           <h2 class="text-3xl lg:text-4xl text-white font-extrabold mb-5">
             Meet Our Super Clients
@@ -179,7 +179,7 @@
           </p>
           <button class="btn bg-white text-[#f87c2a]">Show All</button>
         </div>
-        <div class="relative py-1 md:py-20 m-2 h-[630px] md:h-[625px]">
+        <div class="relative py-1 md:py-16 h-[630px] md:h-[625px]">
           <div class="meet-card mb-8 opacity-50">
             <img class="meet-card-img" src="../images/client.png" alt="" />
             <p class="pb-5">
@@ -210,7 +210,7 @@
             </div>
           </div>
           <div
-            class="meet-card absolute opacity-100 bottom-[350px] right-4 lg:right-20 shadow-lg"
+            class="meet-card absolute opacity-100 bottom-[350px] lg:right-20 shadow-lg"
           >
             <img class="meet-card-img" src="../images/client.png" alt="" />
             <p class="pb-5">
@@ -237,14 +237,11 @@
           humour, or randomised words which don't look even slightly believable.
         </p>
         <div class="lg:flex lg:justify-center lg:items-center lg:gap-x-5">
-          
           <div class="news-card">
             <img src="../images/news-1.png" alt="News image" />
             <div>
               <p class="mt-5 mb-3">Feb 05, 2027</p>
-              <h3 class="news-card-h3">
-                Collecting 8 points for discount
-              </h3>
+              <h3 class="news-card-h3">Collecting 8 points for discount</h3>
               <p class="mb-3 leading-6">
                 There are many variations of passages of Lorem Ipsum available.
               </p>
@@ -256,9 +253,7 @@
             <img src="../images/news-2.png" alt="News image" />
             <div>
               <p class="mt-5 mb-3">Feb 05, 2027</p>
-              <h3 class="news-card-h3">
-                Collecting 8 points for discount
-              </h3>
+              <h3 class="news-card-h3">Collecting 8 points for discount</h3>
               <p class="mb-3 leading-6">
                 There are many variations of passages of Lorem Ipsum available.
               </p>
@@ -270,19 +265,75 @@
             <img src="../images/news-3.png" alt="News image" />
             <div>
               <p class="mt-5 mb-3">Feb 05, 2027</p>
-              <h3 class="news-card-h3">
-                Collecting 8 points for discount
-              </h3>
+              <h3 class="news-card-h3">Collecting 8 points for discount</h3>
               <p class="mb-3 leading-6">
                 There are many variations of passages of Lorem Ipsum available.
               </p>
               <a class="text-base font-bold" href="#">Learn More</a>
             </div>
           </div>
-
         </div>
       </section>
       <!-- News & Events Section Code End Here -->
     </main>
+    <footer class="bg-[#FFEEE9] py-24">
+      <div class="w-11/12 mx-auto lg:w-4/5 md:mx-auto">
+        <div class="flex justify-between items-center">
+          <img class="w-14 h-16" src="../images/cup.png" alt="" />
+          <div class="lg:flex lg:justify-center lg:items-center">
+            <p class="pr-5 pt-6 text-lg font-semibold">Ready to get strated?</p>
+            <button class="btn gradient-color">Get Started</button>
+          </div>
+        </div>
+
+        <div class="lg:flex lg:justify-between mt-12">
+          <div class="lg:w-4/6 flex justify-between mb-6">
+            <div>
+              <h3 class="footer-h3">Quick Links</h3>
+              <p class="mb-4">Home</p>
+              <p class="mb-4">About Us</p>
+              <p class="mb-4">Insurance</p>
+              <p class="mb-4">Privacy Policy</p>
+            </div>
+
+            <div>
+              <h3 class="footer-h3">Our Service</h3>
+              <p class="mb-4">Life Insurance</p>
+              <p class="mb-4">Car Insurance</p>
+              <p class="mb-4">Health Insurance</p>
+              <p class="mb-4">House Insurance</p>
+            </div>
+
+            <div>
+              <h3 class="footer-h3">Help</h3>
+              <p class="mb-4">FAQs</p>
+              <p class="mb-4">Contact Us</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-2xl font-semibold leading-10 mb-10">
+              Subscribe to our newsletter
+            </h3>
+            <div>
+              <input
+                class="bg-[#FFEEE9] focus:outline-none placeholder:text-[##494949] border-b border-[#494949] pb-5"
+                type="email"
+                placeholder="Email address"
+              />
+              <i
+                class="w-8 h-8 text-center pt-2 rounded-full gradient-color fa-solid fa-chevron-right"
+              ></i>
+            </div>
+            <div class="flex gap-6 text-3xl mt-12 mb-20">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2027 UIDesign.to - All rights reserved.</p>
+    </footer>
   </body>
 </html>
